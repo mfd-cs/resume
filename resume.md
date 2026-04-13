@@ -17,7 +17,7 @@ A dedicated Computer Engineering student at Galatasaray University with a strong
 - [cite_start]Managed budget planning and sponsorship operations for the student branch. 
 
 ## 📜 Verified Certifications
-- [cite_start]**[C Programming Language](https://www.btkakademi.gov.tr/sertifika/VP1cgrP6aG)** - BTK Akademi (Jan 2026) 
+- [cite_start]**[C Programming Language]([https://www.btkakademi.gov.tr/sertifika/VP1cgrP6aG](https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=VP1cgrP6aG))** - BTK Akademi (Jan 2026) 
 - [cite_start]**[C Intermediate](https://www.sololearn.com/certificates/CC-T1JYEIOM)** - SoloLearn (Jan 2026) 
 - [cite_start]**[Python Intermediate](https://www.sololearn.com/certificates/CT-V1LWZ9JJ)** - SoloLearn (Jan 2023) 
 
