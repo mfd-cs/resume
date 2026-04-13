@@ -1,5 +1,5 @@
 # Muhammed Furkan Demirci
-<img src="https://upload.wikimedia.org/wikipedia/tr/1/1b/Galatasaray_%C3%9Cniversitesi_Logosu.png" align="right" width="100">
+
 ### Étudiant en Génie Informatique @ Université Galatasaray
 ---
 
