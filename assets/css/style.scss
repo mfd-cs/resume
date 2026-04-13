@@ -2,114 +2,65 @@
 ---
 @import "{{ site.theme }}";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
-
+// Renk Paleti - Biraz daha belirgin bir krem ve tam Oxford Navy
 :root {
-  --bg-cream: #faf9f6; // O istediğin premium krem rengi
-  --text-navy: #1b2a41; // Tok Lacivert metin
-  --heading-navy: #0c1824; // Koyu lacivert başlık
-  --accent-blue: #2a5282; // Linkler için
-  --border-color: transparent; 
+  --bg-cream: #fdfaf1;   // Daha sıcak, hafif sarımsı bir krem
+  --heading-navy: #002147; // Net Lacivert (Oxford Blue)
+  --text-dark: #2c3e50;  // Metinler için koyu gri/lacivert karışımı
+  --accent-blue: #0056b3; // Link rengi
 }
 
-// 1. HER YERİ KREM YAP (KAYITSIZ ŞARTSIZ - Temaya özgü iç kutular dahil)
-html, body, .wrapper, header, section, footer, div, span, blockquote, pre, code, table, tr, td, th {
+// TÜM SAYFAYI KREM YAP
+// Sadece body değil, temanın tüm katmanlarını hedefliyoruz
+html, body, .wrapper, header, section, footer {
   background-color: var(--bg-cream) !important;
   background: var(--bg-cream) !important;
+  color: var(--text-dark) !important;
+}
+
+// Sidebar (Sol taraf) ve İçerik (Sağ taraf) kutularını temizle
+header, section {
+  background: transparent !important;
   box-shadow: none !important;
-  border-color: transparent !important;
 }
 
-// 2. TÜM YAZILARI LACİVERT YAP (SİYAH VEYA BEYAZ KALMASIN)
-body, p, li, span, div, td, th, header, section, footer, small, em, blockquote, pre, code {
-  color: var(--text-navy) !important;
-  font-family: 'Inter', sans-serif !important;
-}
-
-// 3. BAŞLIKLAR VE İSMİN
+// TÜM BAŞLIKLARI NAVY YAP
+// h1'den h6'ya kadar hepsini laciverte zorluyoruz
 h1, h2, h3, h4, h5, h6 {
   color: var(--heading-navy) !important;
-  font-family: 'Inter', sans-serif !important;
-}
-
-// Sidebar'daki İsim (header > h1)
-header h1 {
-  font-weight: 800 !important;
-  font-size: 2.2rem !important; // Biraz küçülttük
-  border-bottom: 3px solid var(--heading-navy) !important; 
-  padding-bottom: 15px !important;
-  margin-bottom: 25px !important;
-}
-
-// Ana İçerikteki Başlık (Görsel 3'teki işaretli alan - section > h1)
-section h1 {
   font-weight: 700 !important;
-  font-size: 1.8rem !important; // Burası küçüldü
-  text-transform: none !important; // uppercase yapma, çirkin duruyor
-  border-bottom: 2px solid var(--heading-navy) !important;
-  padding-bottom: 10px !important;
-  margin-top: 10px !important;
-  margin-bottom: 20px !important;
 }
 
-// Bölüm Başlıkları (EĞİTİM, DENEYİM VB.)
-h2 {
-  font-weight: 700 !important;
-  font-size: 1.3rem !important; 
-  text-transform: uppercase !important;
-  letter-spacing: 0.05em !important;
-  margin-top: 35px !important;
-  margin-bottom: 15px !important;
-  border-bottom: none !important; // Çizgileri sildik
-}
-
-h3 {
-  font-weight: 700 !important;
-  font-size: 1.1rem !important;
-  margin-top: 20px !important;
-  margin-bottom: 5px !important;
-}
-
-// 4. KUTU VE IZGARA GÖRÜNÜMÜNÜ KÖKTEN SİL
-// Üniversite isimlerinin beyaz kalmaması için code'u sıfırla
-code {
-  background-color: transparent !important; 
+// Ana Başlık ve Altındaki Çizgi
+header h1, section h1 {
   color: var(--heading-navy) !important;
-  font-family: inherit !important; // Kod fontundan kurtul
-  font-weight: 700 !important;
-  padding: 0 !important;
+  border-bottom: 3px solid var(--heading-navy) !important;
+  padding-bottom: 10px !important;
 }
 
-pre {
-  background-color: transparent !important;
-  border: none !important;
+// Bölüm Başlıkları (EĞİTİM, DENEYİM vb.)
+h2 {
+  border-bottom: 2px solid #dcd7ca !important; // Başlık altındaki çizgiyi yumuşattık
+  font-size: 1.3rem !important;
+  margin-top: 35px !important;
 }
 
-// Tabloları temizle
-table, th, td, tr {
-  border: none !important;
-  background-color: transparent !important;
-  padding: 8px 0 !important;
-}
-
-// 5. LİNKLER
+// Linkler
 a {
   color: var(--accent-blue) !important;
   text-decoration: none !important;
-  border-bottom: 1px solid var(--accent-blue) !important;
 }
 
 a:hover {
-  color: var(--heading-navy) !important;
-  border-bottom: 1px solid var(--heading-navy) !important;
+  text-decoration: underline !important;
 }
 
-strong {
+// Kod Blokları ve Listelerdeki "Beyazlıkları" Temizle
+code, pre {
+  background-color: #f5f2e9 !important; // Biraz daha koyu bir krem
   color: var(--heading-navy) !important;
-  font-weight: 700 !important;
 }
 
 li {
-  margin-bottom: 10px !important;
-  line-height: 1.6 !important;
+  color: var(--text-dark) !important;
 }
