@@ -7,8 +7,8 @@
 Étudiant en génie informatique à l'Université Galatasaray, doté d'une solide base analytique acquise à l'Université de Boğaziçi. Passionné par le langage C/C++ et l'architecture des systèmes, avec des certifications vérifiées et une expérience de leadership au sein d'organisations étudiantes.
 
 ## 🎓 Éducation
-- **Université Galatasaray** | Licence en Génie Informatique (2024 - 2029)
-- **Université de Boğaziçi** | Génie Civil (2021 - 2024)
+- **Université Galatasaray** | Licence en Génie Informatique (2024 - 2029).
+- **Université de Boğaziçi** | Génie Civil (2021 - 2024).
 
 ## 💼 Expérience
 ### BUEC - Branche Étudiante IEEE de l'Université de Boğaziçi
