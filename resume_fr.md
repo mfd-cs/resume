@@ -19,7 +19,7 @@
 ## 📜 Certifications Vérifiées
 - **[C Programming Language](https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=VP1cgrP6aG)** - BTK Akademi (Jan 2026)
 - **[C Intermediate](https://www.sololearn.com/certificates/CC-T1JYEIOM)** - SoloLearn (Jan 2026)
-- **[Python Intermediate](https://www.sololearn.com/certificates/CT-V1LWZ9JJ)** - SoloLearn (Jan 2023)
+- **[Python Intermediate](https://www.sololearn.com/certificates/CT-V1LWZ9JJ)** - SoloLearn (Jan 2023) 
 
 ## 🛠 Compétences Techniques
 - **Langages:** C, C++, Python
