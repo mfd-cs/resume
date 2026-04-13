@@ -12,7 +12,7 @@
 
 ## 💼 Expérience
 ### BUEC - Branche Étudiante IEEE de l'Université de Boğaziçi
-**Coordinateur du Comité de Sponsoring** | Oct 2022 - Juin 2023 
+**Coordinateur du Comité de Sponsoring** • Oct 2022 - Juin 2023 
 - Gestion des relations d'affaires et sécurisation du financement pour des événements techniques.
 - Planification budgétaire et coordination des opérations de parrainage.
 
