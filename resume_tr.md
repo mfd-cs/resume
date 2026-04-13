@@ -7,12 +7,12 @@
 Boğaziçi Üniversitesi'nde edindiğim analitik mühendislik temellerini, Galatasaray Üniversitesi'ndeki teknik eğitimimle birleştiriyorum. C/C++ ve sistem mimarisi üzerine yoğunlaşmış, doğrulanmış sertifikalara ve öğrenci kulüplerinde liderlik deneyimine sahip bir bilgisayar mühendisliği öğrencisiyim.
 
 ## 🎓 Eğitim
-- **Galatasaray Üniversitesi** | Bilgisayar Mühendisliği (2024 - 2029).
-- **Boğaziçi Üniversitesi** | İnşaat Mühendisliği (2021 - 2024).
+- **Galatasaray Üniversitesi** • Bilgisayar Mühendisliği (2024 - 2029).
+- **Boğaziçi Üniversitesi** • İnşaat Mühendisliği (2021 - 2024).
 
 ## 💼 Deneyim & Liderlik
 ### BUEC - Boğaziçi Üniversitesi IEEE Öğrenci Kolu
-**Sponsorluk Komitesi Koordinatörü** | Ekim 2022 - Haziran 2023 
+**Sponsorluk Komitesi Koordinatörü** • Ekim 2022 - Haziran 2023 
 - Kurumsal ilişkilerin yönetimi ve büyük ölçekli teknik etkinlikler için kaynak sağlanması.
 - Öğrenci kolu faaliyetleri için bütçe planlaması ve sponsorluk operasyonlarının yürütülmesi.
 
