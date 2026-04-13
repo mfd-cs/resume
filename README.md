@@ -9,7 +9,7 @@ This repository serves as a professional implementation of the **Resume-as-Code*
 
 ## 🎓 Academic Background
 - **Galatasaray University**: B.Sc. in Computer Engineering (2024 - 2029).
-- **Boğaziçi University**: Civil Engineering studies (2021 - 2024).
+- **Boğaziçi University**: Civil Engineering (2021 - 2024).
 
 ## 📜 Verified Credentials
 Official certificates are archived in the `/certs` directory and include verifiable links :
