@@ -35,10 +35,26 @@
     }
   ],
   "certifications": [
-    { "name": "C Programlama Dili", "provider": "BTK Akademi", "id": "VP1cgrP6aG", "date": "2026-01-25" },
-    { "name": "C Intermediate", "provider": "SoloLearn", "id": "CC-T1JYEIOM", "date": "2026-01-26" },
-    { "name": "Introduction to C", "provider": "SoloLearn", "id": "CC-BIDMR225", "date": "2025-12-10" },
-    { "name": "Python Intermediate", "provider": "SoloLearn", "id": "CT-V1LWZ9JJ", "date": "2023-01-28" },
-    { "name": "Introduction to Python", "provider": "SoloLearn", "id": "CC-7HK2ZROS", "date": "2022-11-19" }
+    {
+      "name": "C Programlama Dili",
+      "provider": "BTK Akademi",
+      "date": "2026-01-25",
+      "verification_id": "VP1cgrP6aG",
+      "url": "https://www.btkakademi.gov.tr/sertifika/VP1cgrP6aG"
+    },
+    {
+      "name": "C Intermediate",
+      "provider": "SoloLearn",
+      "date": "2026-01-26",
+      "verification_id": "CC-T1JYEIOM",
+      "url": "https://www.sololearn.com/certificates/CC-T1JYEIOM"
+    },
+    {
+      "name": "Python Intermediate",
+      "provider": "SoloLearn",
+      "date": "2023-01-28",
+      "verification_id": "CT-V1LWZ9JJ",
+      "url": "https://www.sololearn.com/certificates/CT-V1LWZ9JJ"
+    }
   ]
 }
