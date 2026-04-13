@@ -2,44 +2,69 @@
 ---
 @import "{{ site.theme }}";
 
-// Brittany Chiang Renk Paleti
 :root {
-  --bg-navy: #0a192f;
-  --light-navy: #112240;
-  --lightest-navy: #233554;
-  --slate: #8892b0;
-  --light-slate: #a8b2d1;
-  --lightest-slate: #ccd6f6;
-  --white: #e6f1ff;
-  --green: #64ffda; // O meşhur turkuaz/yeşil vurgu rengi
+  --bg-cream: #faf9f6; // Premium Kırık Beyaz / Krem
+  --text-navy: #1b2a41; // Tok Lacivert (Ana metinler)
+  --heading-navy: #0c1824; // Daha koyu lacivert (Başlıklar)
+  --accent-blue: #2a5282; // Linkler ve vurgular için biraz daha canlı lacivert
+  --border-color: #d1d8e0; // Çizgiler ve kutular için yumuşak gri-mavi
 }
 
-body {
-  background-color: var(--bg-navy) !important;
-  color: var(--slate) !important;
-  font-family: 'Inter', sans-serif;
+// Tüm sayfa ve ana taşıyıcılar
+html, body, .wrapper, section, header, footer {
+  background-color: var(--bg-cream) !important;
+  background: var(--bg-cream) !important;
+  color: var(--text-navy) !important;
 }
 
+// Başlıklar
 h1, h2, h3, h4, h5, h6 {
-  color: var(--lightest-slate) !important;
+  color: var(--heading-navy) !important;
+  border-bottom: 1px solid var(--border-color) !important;
 }
 
+// Linkler
 a {
-  color: var(--green) !important;
+  color: var(--accent-blue) !important;
   text-decoration: none !important;
-  transition: all 0.25s ease;
+  font-weight: 500;
 }
 
 a:hover {
-  color: var(--white) !important;
-  text-shadow: 0 0 10px rgba(100, 255, 218, 0.3);
+  text-decoration: underline !important;
+  color: var(--heading-navy) !important;
 }
 
-strong {
-  color: var(--green) !important;
-}
-
+// Satır içi kodlar ve kutular ( `code` )
 code {
-  background-color: var(--light-navy) !important;
-  color: var(--green) !important;
+  background-color: #eef1f5 !important;
+  color: var(--heading-navy) !important;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+// Büyük kod blokları ( ``` )
+pre {
+  background-color: #eef1f5 !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-navy) !important;
+}
+
+// Alıntılar ve özel bölümler ( > )
+blockquote {
+  border-left: 4px solid var(--accent-blue) !important;
+  color: var(--text-navy) !important;
+  background-color: #eef1f5 !important;
+  padding: 10px 20px;
+}
+
+// Tablolar
+table, th, td {
+  border: 1px solid var(--border-color) !important;
+  background-color: var(--bg-cream) !important;
+}
+
+// Vurgulu metinler
+strong {
+  color: var(--heading-navy) !important;
 }
