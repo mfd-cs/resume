@@ -5,7 +5,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Generate English PDF
         uses: baileyjm02/markdown-to-pdf@v1
@@ -13,6 +13,7 @@ jobs:
           input_path: resume_en.md
           output_dir: output
           build_html: false
+        continue-on-error: true
 
       - name: Generate Turkish PDF
         uses: baileyjm02/markdown-to-pdf@v1
@@ -20,6 +21,7 @@ jobs:
           input_path: resume_tr.md
           output_dir: output
           build_html: false
+        continue-on-error: true
 
       - name: Generate French PDF
         uses: baileyjm02/markdown-to-pdf@v1
@@ -27,6 +29,7 @@ jobs:
           input_path: resume_fr.md
           output_dir: output
           build_html: false
+        continue-on-error: true
 
       - name: Upload PDF Artifacts
         uses: actions/upload-artifact@v4
