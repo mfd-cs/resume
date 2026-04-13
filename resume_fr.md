@@ -3,14 +3,14 @@
 
 ---
 
-## 🚀 Résumé Professionnel
+## Résumé Professionnel
 Étudiant en génie informatique à l'Université Galatasaray, doté d'une solide base analytique acquise à l'Université de Boğaziçi. Passionné par le langage C/C++ et l'architecture des systèmes, avec des certifications vérifiées et une expérience de leadership au sein d'organisations étudiantes.
 
 ## 🎓 Éducation
 - **Université Galatasaray** | Licence en Génie Informatique (2024 - 2029)
 - **Université de Boğaziçi** | Génie Civil (2021 - 2024)
 
-## 💼 Expérience & Leadership
+## 💼 Expérience
 ### BUEC - Branche Étudiante IEEE de l'Université de Boğaziçi
 **Coordinateur du Comité de Sponsoring** | Oct 2022 - Juin 2023 
 - Gestion des relations d'affaires et sécurisation du financement pour des événements techniques.
@@ -26,7 +26,7 @@
 - **Anglais :** ![Professionnel](https://img.shields.io/badge/Professionnel-85%25-green)
 - **Français :** ![Limite](https://img.shields.io/badge/Limite-40%25-yellow)
 
-## 🛠 Compétences Techniques
+##  Compétences Techniques
 - **Langages :** C, C++, Python
 - **Outils d'Ingénierie :** MATLAB, AutoCAD
 - **Outils de Développement :** Git, GitHub, JSON, Markdown
