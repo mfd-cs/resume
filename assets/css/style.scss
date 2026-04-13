@@ -5,87 +5,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
 :root {
-  --bg-cream: #faf9f6;
-  --text-navy: #1b2a41;
-  --heading-navy: #0c1824;
+  --bg-cream: #faf9f6; // O istediğin premium krem rengi
+  --text-navy: #1b2a41; // Lacivert metin
+  --heading-navy: #0c1824; // Koyu lacivert başlık
   --accent-blue: #2a5282;
-  --border-color: transparent; 
 }
 
-// 1. ARKA PLAN VE YAZI TİPİ
-html, body, .wrapper, header, section, footer {
+// 1. HER YERİ KREM YAP (KAYITSIZ ŞARTSIZ)
+html, body, .wrapper, header, section, footer, div, span {
   background-color: var(--bg-cream) !important;
+  background: var(--bg-cream) !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+// 2. TÜM YAZILARI LACİVERT YAP (SİYAH KALMASIN)
+body, p, li, span, div, td, th, header, section, footer, small, em {
+  color: var(--text-navy) !important;
   font-family: 'Inter', sans-serif !important;
 }
 
-// 2. İNATÇI SİYAH YAZILARI LACİVERTE ZORLAMA (Sağ taraf için kesin çözüm)
-body, p, li, span, div, td, th, blockquote {
-  color: var(--text-navy) !important;
+// 3. BAŞLIKLARI VE İSMİNİ DÜZENLE
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-navy) !important;
+  font-family: 'Inter', sans-serif !important;
 }
 
-// 3. İSMİN (EN ÜSTTEKİ H1) - Dokunmuyoruz, güzel olmuştu
+// Ana Başlık (İsminin olduğu kısım)
 h1 {
-  color: var(--heading-navy) !important;
   font-weight: 800 !important;
-  font-size: 2.5rem !important;
-  border-bottom: 3px solid var(--heading-navy) !important; 
-  padding-bottom: 15px !important;
-  margin-bottom: 30px !important;
+  font-size: 2rem !important; // Çok büyük olmasın diye biraz küçülttük
+  border-bottom: 2px solid var(--heading-navy) !important;
+  padding-bottom: 10px !important;
+  margin-bottom: 20px !important;
 }
 
-// 4. ALT BAŞLIKLARI KÜÇÜLTME (H2 ve H3 boyutları optimize edildi)
+// Alt Başlıklar (Eğitim, Akademik Geçmiş vb.)
 h2 {
-  color: var(--heading-navy) !important;
   font-weight: 700 !important;
-  font-size: 1.3rem !important; // BOYUTU KÜÇÜLTTÜK
+  font-size: 1.3rem !important;
   text-transform: uppercase !important;
-  letter-spacing: 0.05em !important;
-  border-bottom: none !important; 
-  margin-top: 35px !important;
-  margin-bottom: 15px !important;
-}
-
-h3 {
-  color: var(--heading-navy) !important;
-  font-weight: 700 !important;
-  font-size: 1.1rem !important; // BOYUTU DAHA DA KÜÇÜLTTÜK
+  margin-top: 30px !important;
   border-bottom: none !important;
-  margin-top: 15px !important;
-  margin-bottom: 5px !important;
 }
 
-// 5. TABLO VE KUTU GÖRÜNÜMÜNÜ SİLME
-table, th, td, tr {
-  border: none !important; 
-  background-color: transparent !important; 
-  padding: 5px 0 !important;
+// 4. TABLO / IZGARA GÖRÜNÜMÜNÜ SİL
+table, tr, td, th, thead, tbody {
+  border: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
 }
 
-code {
-  background-color: transparent !important; 
-  color: var(--heading-navy) !important;
-  font-family: inherit !important; 
-  font-weight: 700 !important;
-  padding: 0 !important;
-}
-
-li {
-  margin-bottom: 8px !important;
-  line-height: 1.6 !important; // Satır arası boşluğunu açarak okumayı kolaylaştırdık
-}
-
+// 5. LİNKLER
 a {
   color: var(--accent-blue) !important;
   text-decoration: none !important;
-  border-bottom: 1px solid var(--accent-blue); 
+  border-bottom: 1px solid var(--accent-blue) !important;
 }
 
 a:hover {
   color: var(--heading-navy) !important;
-  border-bottom: 1px solid var(--heading-navy);
-}
-
-strong {
-  color: var(--heading-navy) !important;
-  font-weight: 700 !important;
+  border-bottom: 1px solid var(--heading-navy) !important;
 }
