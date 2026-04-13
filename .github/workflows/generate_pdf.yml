@@ -7,6 +7,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Create Output Directory
+        run: mkdir -p output
+
       - name: Generate English PDF
         uses: baileyjm02/markdown-to-pdf@v1
         with:
