@@ -3,23 +3,24 @@
 
 ---
 
-## 🚀 Hakkımda
-Boğaziçi Üniversitesi'ndeki mühendislik temellerimi, Galatasaray Üniversitesi Bilgisayar Mühendisliği'ndeki teknik disiplinle birleştiriyorum. C ve Python dillerinde bellek yönetimi ve algoritma odaklı çalışmalar yapıyorum.
+## 🚀 Professional Summary
+A dedicated Computer Engineering student at Galatasaray University with a strong analytical foundation from Boğaziçi University. Focused on mastering C/C++ and system architecture through verified certifications and hands-on projects.
 
-## 🎓 Eğitim
-- **Galatasaray Üniversitesi** | Bilgisayar Mühendisliği (2024 - 2029)
-- **Boğaziçi Üniversitesi** | İnşaat Mühendisliği (Analitik Temeller - 2021 - 2024)
+## 🎓 Education
+- **Galatasaray University** | B.Sc. in Computer Engineering (2024 - 2029)
+- **Boğaziçi University** | Engineering Foundations (2021 - 2024)
 
-## 💼 Deneyim
-### BUEC - Boğaziçi Üniversitesi IEEE Öğrenci Kolu
-**Sponsorluk Komitesi Koordinatörü** | Ekim 2022 - Haziran 2023
-- [cite_start]Kurumsal ilişkilerin yönetimi ve teknik etkinlikler için bütçe planlaması. [cite: 12-63]
-- [cite_start]Sponsorluk operasyonlarının uçtan uca koordinasyonu. [cite: 12-63]
+## 💼 Leadership & Experience
+### BUEC - Boğaziçi University IEEE Student Branch
+**Coordinator of Sponsorship Committee** | Oct 2022 - Jun 2023
+- [cite_start]Orchestrated corporate relations and secured funding for large-scale technical events. 
+- [cite_start]Managed budget planning and sponsorship operations for the student branch. 
 
-## 📜 Sertifikalar
-- [cite_start]**BTK Akademi:** C Programlama Dili (Ocak 2026) [cite: 1-11]
-- [cite_start]**SoloLearn:** C Intermediate & Python Intermediate [cite: 12-63]
+## 📜 Verified Certifications
+- [cite_start]**[C Programming Language](https://www.btkakademi.gov.tr/sertifika/VP1cgrP6aG)** - BTK Akademi (Jan 2026) [cite: 1-11]
+- [cite_start]**[C Intermediate](https://www.sololearn.com/certificates/CC-T1JYEIOM)** - SoloLearn (Jan 2026) [cite: 12-24]
+- [cite_start]**[Python Intermediate](https://www.sololearn.com/certificates/CT-V1LWZ9JJ)** - SoloLearn (Jan 2023) [cite: 51-63]
 
-## 🛠 Teknik Yetkinlikler
-- **Diller:** C, C++, Python
-- **Araçlar:** Git, GitHub, JSON, Markdown
+## 🛠 Technical Stack
+- **Languages:** C, C++, Python
+- **Tools:** Git, GitHub, JSON, Markdown, LaTeX
