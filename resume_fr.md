@@ -1,6 +1,6 @@
 # Muhammed Furkan Demirci
- 
 ### Étudiant en Génie Informatique @ Université Galatasaray
+
 ---
 
 ## 🚀 Résumé Professionnel
@@ -8,25 +8,25 @@
 
 ## 🎓 Éducation
 - **Université Galatasaray** | Licence en Génie Informatique (2024 - 2029)
-- **Université de Boğaziçi** | Fondements de l'Ingénierie (2021 - 2024)
+- **Université de Boğaziçi** | Génie Civil (2021 - 2024)
 
 ## 💼 Expérience & Leadership
 ### BUEC - Branche Étudiante IEEE de l'Université de Boğaziçi
-**Coordinateur du Comité de Sponsoring** | Oct 2022 - Juin 2023
+**Coordinateur du Comité de Sponsoring** | Oct 2022 - Juin 2023 
 - Gestion des relations d'affaires et sécurisation du financement pour des événements techniques.
 - Planification budgétaire et coordination des opérations de parrainage.
 
 ## 📜 Certifications Vérifiées
-- **[C Programming Language](https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=VP1cgrP6aG)** - BTK Akademi (Jan 2026)
-- **[C Intermediate](https://www.sololearn.com/certificates/CC-T1JYEIOM)** - SoloLearn (Jan 2026)
-- **[Python Intermediate](https://www.sololearn.com/certificates/CT-V1LWZ9JJ)** - SoloLearn (Jan 2023)
+- **[C Programming Language](https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=VP1cgrP6aG)** - BTK Akademi (Jan 2026) 
+- **[C Intermediate](https://www.sololearn.com/certificates/CC-T1JYEIOM)** - SoloLearn (Jan 2026) 
+- **[Python Intermediate](https://www.sololearn.com/certificates/CT-V1LWZ9JJ)** - SoloLearn (Jan 2023) 
 
 ## 🌐 Langues
-- **Turc :** ![Natif](https://img.shields.io/badge/Natif-██████████-brightgreen) (100%)
-- **Anglais :** ![Professionnel](https://img.shields.io/badge/Professionnel-████████░░-green) (85%)
-- **Français :** ![Limité](https://img.shields.io/badge/Limité-████░░░░░░-yellow) (40% - Classe Préparatoire Terminée)
+- **Turc :** ![Natif](https://img.shields.io/badge/Natif-100%25-brightgreen)
+- **Anglais :** ![Professionnel](https://img.shields.io/badge/Professionnel-85%25-green)
+- **Français :** ![Limite](https://img.shields.io/badge/Limite-40%25-yellow)
 
 ## 🛠 Compétences Techniques
-- **Langages:** C, C++, Python
-- **Outils d'Ingénierie:** MATLAB, AutoCAD
-- **Outils de Développement:** Git, GitHub, JSON, Markdown
+- **Langages :** C, C++, Python
+- **Outils d'Ingénierie :** MATLAB, AutoCAD
+- **Outils de Développement :** Git, GitHub, JSON, Markdown
