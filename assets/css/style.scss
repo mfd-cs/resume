@@ -2,69 +2,62 @@
 ---
 @import "{{ site.theme }}";
 
+// Google Fonts'tan profesyonel ve kalınlığı iyi destekleyen bir font ekleyelim
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
 :root {
-  --bg-cream: #faf9f6; // Premium Kırık Beyaz / Krem
-  --text-navy: #1b2a41; // Tok Lacivert (Ana metinler)
-  --heading-navy: #0c1824; // Daha koyu lacivert (Başlıklar)
-  --accent-blue: #2a5282; // Linkler ve vurgular için biraz daha canlı lacivert
-  --border-color: #d1d8e0; // Çizgiler ve kutular için yumuşak gri-mavi
+  --bg-cream: #faf9f6;
+  --text-navy: #1b2a41;
+  --heading-navy: #0c1824;
+  --accent-blue: #2a5282;
+  --border-color: #d1d8e0;
 }
 
-// Tüm sayfa ve ana taşıyıcılar
 html, body, .wrapper, section, header, footer {
   background-color: var(--bg-cream) !important;
-  background: var(--bg-cream) !important;
   color: var(--text-navy) !important;
+  font-family: 'Inter', sans-serif !important;
 }
 
-// Başlıklar
-h1, h2, h3, h4, h5, h6 {
+// İSMİN (EN ÜSTTEKİ H1)
+h1 {
   color: var(--heading-navy) !important;
+  font-weight: 800 !important; // Ekstra kalın
+  font-size: 2.5rem !important; // Daha büyük
+  letter-spacing: -0.02em !important; // Harf arasını hafif daraltarak daha 'premium' durmasını sağlar
+  border-bottom: 2px solid var(--heading-navy) !important; // Altındaki çizgi daha belirgin
+  padding-bottom: 10px !important;
+  margin-top: 20px !important;
+}
+
+// DİĞER BAŞLIKLAR (Eğitim, Deneyim vb.)
+h2, h3, h4 {
+  color: var(--heading-navy) !important;
+  font-weight: 700 !important; // Kalın
+  text-transform: uppercase !important; // Başlıkları büyük harf yaparak daha profesyonel gösterebiliriz
+  letter-spacing: 0.05em !important;
+  margin-top: 30px !important;
   border-bottom: 1px solid var(--border-color) !important;
 }
 
-// Linkler
 a {
   color: var(--accent-blue) !important;
   text-decoration: none !important;
-  font-weight: 500;
+  font-weight: 700; // Linkler de kalın olsun
 }
 
 a:hover {
+  color: var(--heading-navy) !important;
   text-decoration: underline !important;
-  color: var(--heading-navy) !important;
 }
 
-// Satır içi kodlar ve kutular ( `code` )
-code {
-  background-color: #eef1f5 !important;
-  color: var(--heading-navy) !important;
-  padding: 2px 5px;
-  border-radius: 4px;
-}
-
-// Büyük kod blokları ( ``` )
-pre {
-  background-color: #eef1f5 !important;
-  border: 1px solid var(--border-color) !important;
-  color: var(--text-navy) !important;
-}
-
-// Alıntılar ve özel bölümler ( > )
-blockquote {
-  border-left: 4px solid var(--accent-blue) !important;
-  color: var(--text-navy) !important;
-  background-color: #eef1f5 !important;
-  padding: 10px 20px;
-}
-
-// Tablolar
-table, th, td {
-  border: 1px solid var(--border-color) !important;
-  background-color: var(--bg-cream) !important;
-}
-
-// Vurgulu metinler
 strong {
+  font-weight: 700 !important;
   color: var(--heading-navy) !important;
+}
+
+// Kod blokları ve alıntılar için temizlik
+code, pre, blockquote {
+  background-color: #eef1f5 !important;
+  border-radius: 4px;
 }
