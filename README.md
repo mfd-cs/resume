@@ -12,9 +12,9 @@ Bu repository, akademik ve profesyonel geçmişimi **JSON tabanlı bir veri yap�
 - **Boğaziçi Üniversitesi:** Mühendislik Temelleri (2021 - 2024)
 
 ## 📜 Sertifikalar ve Belgeler
-[cite_start]Tüm belgelerim `/certs` klasörü altında fiziksel olarak saklanmakta ve doğrulanabilir linklerle sunulmaktadır: [cite: 1-63]
-- [cite_start]**BTK Akademi:** C Programlama Dili [cite: 1-11]
-- [cite_start]**SoloLearn:** C & Python Intermediate Certifications [cite: 12-63]
+Tüm belgelerim `/certs` klasörü altında fiziksel olarak saklanmakta ve doğrulanabilir linklerle sunulmaktadır:
+- **BTK Akademi:** C Programlama Dili
+- **SoloLearn:** C & Python Intermediate Certifications
 
 ## 🚀 Hızlı Erişim (PDF Dosyaları)
 *Actions sekmesindeki son başarılı işlemden güncel PDF'leri indirebilirsiniz.*
