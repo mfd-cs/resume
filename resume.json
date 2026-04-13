@@ -35,26 +35,26 @@
     }
   ],
   "certifications": [
-    {
-      "name": "C Programlama Dili",
-      "provider": "BTK Akademi",
-      "date": "2026-01-25",
-      "verification_id": "VP1cgrP6aG",
-      "url": "https://www.btkakademi.gov.tr/sertifika/VP1cgrP6aG"
-    },
-    {
-      "name": "C Intermediate",
-      "provider": "SoloLearn",
-      "date": "2026-01-26",
-      "verification_id": "CC-T1JYEIOM",
-      "url": "https://www.sololearn.com/certificates/CC-T1JYEIOM"
-    },
-    {
-      "name": "Python Intermediate",
-      "provider": "SoloLearn",
-      "date": "2023-01-28",
-      "verification_id": "CT-V1LWZ9JJ",
-      "url": "https://www.sololearn.com/certificates/CT-V1LWZ9JJ"
-    }
-  ]
+  {
+    "name": "C Programlama Dili",
+    "provider": "BTK Akademi",
+    "date": "2026-01-25",
+    "id": "VP1cgrP6aG",
+    "url": "https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=VP1cgrP6aG"
+  },
+  {
+    "name": "C Intermediate",
+    "provider": "SoloLearn",
+    "date": "2026-01-26",
+    "id": "CC-T1JYEIOM",
+    "url": "https://www.sololearn.com/certificates/CC-T1JYEIOM"
+  },
+  {
+    "name": "Python Intermediate",
+    "provider": "SoloLearn",
+    "date": "2023-01-28",
+    "id": "CT-V1LWZ9JJ",
+    "url": "https://www.sololearn.com/certificates/CT-V1LWZ9JJ"
+  }
+]
 }
