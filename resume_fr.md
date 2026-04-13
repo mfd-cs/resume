@@ -1,6 +1,6 @@
 # Muhammed Furkan Demirci
+<img src="https://upload.wikimedia.org/wikipedia/tr/1/1b/Galatasaray_%C3%9Cniversitesi_Logosu.png" align="right" width="100">
 ### Étudiant en Génie Informatique @ Université Galatasaray
-
 ---
 
 ## 🚀 Résumé Professionnel
@@ -19,7 +19,12 @@
 ## 📜 Certifications Vérifiées
 - **[C Programming Language](https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=VP1cgrP6aG)** - BTK Akademi (Jan 2026)
 - **[C Intermediate](https://www.sololearn.com/certificates/CC-T1JYEIOM)** - SoloLearn (Jan 2026)
-- **[Python Intermediate](https://www.sololearn.com/certificates/CT-V1LWZ9JJ)** - SoloLearn (Jan 2023) 
+- **[Python Intermediate](https://www.sololearn.com/certificates/CT-V1LWZ9JJ)** - SoloLearn (Jan 2023)
+
+## 🌐 Langues
+- **Turc :** ![Natif](https://img.shields.io/badge/Natif-██████████-brightgreen) (100%)
+- **Anglais :** ![Professionnel](https://img.shields.io/badge/Professionnel-████████░░-green) (85%)
+- **Français :** ![Limité](https://img.shields.io/badge/Limité-████░░░░░░-yellow) (40% - Classe Préparatoire Terminée)
 
 ## 🛠 Compétences Techniques
 - **Langages:** C, C++, Python
