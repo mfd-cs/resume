@@ -11,7 +11,7 @@ A dedicated Computer Engineering student at Galatasaray University with a strong
 ## 🎓 Education
 - **Galatasaray University** | B.Sc. in Computer Engineering (2024 - 2029)
 - **Boğaziçi University** | Engineering Foundations (2021 - 2024)
-  <img src="https://upload.wikimedia.org/wikipedia/tr/thumb/1/1b/Bo%C4%9Fazi%C3%A7i_%C3%9Cniversitesi_Logosu.png/240px-Bo%C4%9Fazi%C3%A7i_%C3%9Cniversitesi_Logosu.png" width="20"> *Engineering Background*
+  <img src="https://upload.wikimedia.org/wikipedia/tr/thumb/1/1b/Bo%C4%9Fazi%C3%A7i_%C3%9Cniversitesi_Logosu.png/240px-Bo%C4%9Fazi%C3%A7i_%C3%9Cniversitesi_Logosu.png" width="20">
 
 ## 💼 Leadership & Experience
 ### BUEC - Boğaziçi University IEEE Student Branch
