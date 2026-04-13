@@ -20,7 +20,6 @@ A dedicated Computer Engineering student at Galatasaray University with a strong
 - **[C Programming Language](https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=VP1cgrP6aG)** - BTK Akademi (Jan 2026)
 - **[C Intermediate](https://www.sololearn.com/certificates/CC-T1JYEIOM)** - SoloLearn (Jan 2026)
 - **[Python Intermediate](https://www.sololearn.com/certificates/CT-V1LWZ9JJ)** - SoloLearn (Jan 2023)
-- **[Introduction to C](https://www.sololearn.com/certificates/CC-BIDMR225)** - SoloLearn (Dec 2025)
 
 ## 🛠 Technical Stack
 - **Languages:** C, C++, Python
