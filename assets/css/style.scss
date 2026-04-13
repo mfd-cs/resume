@@ -6,54 +6,90 @@
 
 :root {
   --bg-cream: #faf9f6; // O istediğin premium krem rengi
-  --text-navy: #1b2a41; // Lacivert metin
+  --text-navy: #1b2a41; // Tok Lacivert metin
   --heading-navy: #0c1824; // Koyu lacivert başlık
-  --accent-blue: #2a5282;
+  --accent-blue: #2a5282; // Linkler için
+  --border-color: transparent; 
 }
 
-// 1. HER YERİ KREM YAP (KAYITSIZ ŞARTSIZ)
-html, body, .wrapper, header, section, footer, div, span {
+// 1. HER YERİ KREM YAP (KAYITSIZ ŞARTSIZ - Temaya özgü iç kutular dahil)
+html, body, .wrapper, header, section, footer, div, span, blockquote, pre, code, table, tr, td, th {
   background-color: var(--bg-cream) !important;
   background: var(--bg-cream) !important;
   box-shadow: none !important;
   border-color: transparent !important;
 }
 
-// 2. TÜM YAZILARI LACİVERT YAP (SİYAH KALMASIN)
-body, p, li, span, div, td, th, header, section, footer, small, em {
+// 2. TÜM YAZILARI LACİVERT YAP (SİYAH VEYA BEYAZ KALMASIN)
+body, p, li, span, div, td, th, header, section, footer, small, em, blockquote, pre, code {
   color: var(--text-navy) !important;
   font-family: 'Inter', sans-serif !important;
 }
 
-// 3. BAŞLIKLARI VE İSMİNİ DÜZENLE
+// 3. BAŞLIKLAR VE İSMİN
 h1, h2, h3, h4, h5, h6 {
   color: var(--heading-navy) !important;
   font-family: 'Inter', sans-serif !important;
 }
 
-// Ana Başlık (İsminin olduğu kısım)
-h1 {
+// Sidebar'daki İsim (header > h1)
+header h1 {
   font-weight: 800 !important;
-  font-size: 2rem !important; // Çok büyük olmasın diye biraz küçülttük
+  font-size: 2.2rem !important; // Biraz küçülttük
+  border-bottom: 3px solid var(--heading-navy) !important; 
+  padding-bottom: 15px !important;
+  margin-bottom: 25px !important;
+}
+
+// Ana İçerikteki Başlık (Görsel 3'teki işaretli alan - section > h1)
+section h1 {
+  font-weight: 700 !important;
+  font-size: 1.8rem !important; // Burası küçüldü
+  text-transform: none !important; // uppercase yapma, çirkin duruyor
   border-bottom: 2px solid var(--heading-navy) !important;
   padding-bottom: 10px !important;
+  margin-top: 10px !important;
   margin-bottom: 20px !important;
 }
 
-// Alt Başlıklar (Eğitim, Akademik Geçmiş vb.)
+// Bölüm Başlıkları (EĞİTİM, DENEYİM VB.)
 h2 {
   font-weight: 700 !important;
-  font-size: 1.3rem !important;
+  font-size: 1.3rem !important; 
   text-transform: uppercase !important;
-  margin-top: 30px !important;
-  border-bottom: none !important;
+  letter-spacing: 0.05em !important;
+  margin-top: 35px !important;
+  margin-bottom: 15px !important;
+  border-bottom: none !important; // Çizgileri sildik
 }
 
-// 4. TABLO / IZGARA GÖRÜNÜMÜNÜ SİL
-table, tr, td, th, thead, tbody {
-  border: none !important;
-  background: transparent !important;
+h3 {
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+  margin-top: 20px !important;
+  margin-bottom: 5px !important;
+}
+
+// 4. KUTU VE IZGARA GÖRÜNÜMÜNÜ KÖKTEN SİL
+// Üniversite isimlerinin beyaz kalmaması için code'u sıfırla
+code {
+  background-color: transparent !important; 
+  color: var(--heading-navy) !important;
+  font-family: inherit !important; // Kod fontundan kurtul
+  font-weight: 700 !important;
+  padding: 0 !important;
+}
+
+pre {
   background-color: transparent !important;
+  border: none !important;
+}
+
+// Tabloları temizle
+table, th, td, tr {
+  border: none !important;
+  background-color: transparent !important;
+  padding: 8px 0 !important;
 }
 
 // 5. LİNKLER
@@ -66,4 +102,14 @@ a {
 a:hover {
   color: var(--heading-navy) !important;
   border-bottom: 1px solid var(--heading-navy) !important;
+}
+
+strong {
+  color: var(--heading-navy) !important;
+  font-weight: 700 !important;
+}
+
+li {
+  margin-bottom: 10px !important;
+  line-height: 1.6 !important;
 }
