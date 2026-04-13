@@ -2,7 +2,6 @@
 ---
 @import "{{ site.theme }}";
 
-// Google Fonts'tan profesyonel ve kalınlığı iyi destekleyen bir font ekleyelim
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
 :root {
@@ -10,54 +9,83 @@
   --text-navy: #1b2a41;
   --heading-navy: #0c1824;
   --accent-blue: #2a5282;
-  --border-color: #d1d8e0;
+  --border-color: transparent; 
 }
 
-html, body, .wrapper, section, header, footer {
+// 1. ARKA PLAN VE YAZI TİPİ
+html, body, .wrapper, header, section, footer {
   background-color: var(--bg-cream) !important;
-  color: var(--text-navy) !important;
   font-family: 'Inter', sans-serif !important;
 }
 
-// İSMİN (EN ÜSTTEKİ H1)
-h1 {
-  color: var(--heading-navy) !important;
-  font-weight: 800 !important; // Ekstra kalın
-  font-size: 2.5rem !important; // Daha büyük
-  letter-spacing: -0.02em !important; // Harf arasını hafif daraltarak daha 'premium' durmasını sağlar
-  border-bottom: 2px solid var(--heading-navy) !important; // Altındaki çizgi daha belirgin
-  padding-bottom: 10px !important;
-  margin-top: 20px !important;
+// 2. İNATÇI SİYAH YAZILARI LACİVERTE ZORLAMA (Sağ taraf için kesin çözüm)
+body, p, li, span, div, td, th, blockquote {
+  color: var(--text-navy) !important;
 }
 
-// DİĞER BAŞLIKLAR (Eğitim, Deneyim vb.)
-h2, h3, h4 {
+// 3. İSMİN (EN ÜSTTEKİ H1) - Dokunmuyoruz, güzel olmuştu
+h1 {
   color: var(--heading-navy) !important;
-  font-weight: 700 !important; // Kalın
-  text-transform: uppercase !important; // Başlıkları büyük harf yaparak daha profesyonel gösterebiliriz
+  font-weight: 800 !important;
+  font-size: 2.5rem !important;
+  border-bottom: 3px solid var(--heading-navy) !important; 
+  padding-bottom: 15px !important;
+  margin-bottom: 30px !important;
+}
+
+// 4. ALT BAŞLIKLARI KÜÇÜLTME (H2 ve H3 boyutları optimize edildi)
+h2 {
+  color: var(--heading-navy) !important;
+  font-weight: 700 !important;
+  font-size: 1.3rem !important; // BOYUTU KÜÇÜLTTÜK
+  text-transform: uppercase !important;
   letter-spacing: 0.05em !important;
-  margin-top: 30px !important;
-  border-bottom: 1px solid var(--border-color) !important;
+  border-bottom: none !important; 
+  margin-top: 35px !important;
+  margin-bottom: 15px !important;
+}
+
+h3 {
+  color: var(--heading-navy) !important;
+  font-weight: 700 !important;
+  font-size: 1.1rem !important; // BOYUTU DAHA DA KÜÇÜLTTÜK
+  border-bottom: none !important;
+  margin-top: 15px !important;
+  margin-bottom: 5px !important;
+}
+
+// 5. TABLO VE KUTU GÖRÜNÜMÜNÜ SİLME
+table, th, td, tr {
+  border: none !important; 
+  background-color: transparent !important; 
+  padding: 5px 0 !important;
+}
+
+code {
+  background-color: transparent !important; 
+  color: var(--heading-navy) !important;
+  font-family: inherit !important; 
+  font-weight: 700 !important;
+  padding: 0 !important;
+}
+
+li {
+  margin-bottom: 8px !important;
+  line-height: 1.6 !important; // Satır arası boşluğunu açarak okumayı kolaylaştırdık
 }
 
 a {
   color: var(--accent-blue) !important;
   text-decoration: none !important;
-  font-weight: 700; // Linkler de kalın olsun
+  border-bottom: 1px solid var(--accent-blue); 
 }
 
 a:hover {
   color: var(--heading-navy) !important;
-  text-decoration: underline !important;
+  border-bottom: 1px solid var(--heading-navy);
 }
 
 strong {
-  font-weight: 700 !important;
   color: var(--heading-navy) !important;
-}
-
-// Kod blokları ve alıntılar için temizlik
-code, pre, blockquote {
-  background-color: #eef1f5 !important;
-  border-radius: 4px;
+  font-weight: 700 !important;
 }
