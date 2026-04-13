@@ -22,11 +22,11 @@
 - **[Python Intermediate](https://www.sololearn.com/certificates/CT-V1LWZ9JJ)** - SoloLearn (Jan 2023) 
 
 ## 🌐 Langues
-- **Turc :**    ![Natif](https://img.shields.io/badge/Natif-100%25-brightgreen)
+- **Turc :**       ![Natif](https://img.shields.io/badge/Natif-100%25-brightgreen)
 
-- **Anglais :**    ![Professionnel](https://img.shields.io/badge/Professionnel-85%25-green)
+- **Anglais :**       ![Professionnel](https://img.shields.io/badge/Professionnel-85%25-green)
 
-- **Français :**    ![Limite](https://img.shields.io/badge/Limite-40%25-yellow)
+- **Français :**       ![Limite](https://img.shields.io/badge/Limite-40%25-yellow)
 
 
 ##  Compétences Techniques
