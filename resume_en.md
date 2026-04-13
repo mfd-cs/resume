@@ -1,5 +1,6 @@
 # Muhammed Furkan Demirci
 ### Computer Engineering Student @ Galatasaray University
+[LinkedIn](https://www.linkedin.com/in/mfdx/) • [GitHub](https://github.com/mfd-cs)
 
 ---
 
