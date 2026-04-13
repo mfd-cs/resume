@@ -7,8 +7,8 @@
 A dedicated Computer Engineering student at Galatasaray University with a strong analytical foundation acquired at Boğaziçi University. Passionate about C/C++ programming and system architecture, backed by verified certifications and leadership experience in student organizations.
 
 ## 🎓 Education
-- **Galatasaray University** | B.Sc. in Computer Engineering (2024 - 2029).
-- **Boğaziçi University** | Civil Engineering (2021 - 2024).
+- **Galatasaray University** • B.Sc. in Computer Engineering (2024 - 2029).
+- **Boğaziçi University** • Civil Engineering (2021 - 2024).
 
 ## 💼 Leadership & Experience
 ### BUEC - Boğaziçi University IEEE Student Branch
