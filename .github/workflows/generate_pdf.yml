@@ -7,35 +7,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Create Output Directory
-        run: mkdir -p output
-
-      - name: Generate English PDF
-        uses: baileyjm02/markdown-to-pdf@v1
-        with:
-          input_path: resume_en.md
-          output_dir: output
-          build_html: false
-        continue-on-error: true
-
-      - name: Generate Turkish PDF
-        uses: baileyjm02/markdown-to-pdf@v1
-        with:
-          input_path: resume_tr.md
-          output_dir: output
-          build_html: false
-        continue-on-error: true
-
-      - name: Generate French PDF
-        uses: baileyjm02/markdown-to-pdf@v1
-        with:
-          input_path: resume_fr.md
-          output_dir: output
-          build_html: false
-        continue-on-error: true
+      - name: Install and Generate PDFs
+        run: |
+          npm install -g md-to-pdf
+          md-to-pdf resume_en.md
+          md-to-pdf resume_tr.md
+          md-to-pdf resume_fr.md
 
       - name: Upload PDF Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: Resumes-Muhammed-Furkan-Demirci
-          path: output/
+          path: '*.pdf'
