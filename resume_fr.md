@@ -1,5 +1,6 @@
 # Muhammed Furkan Demirci
 ### Étudiant en Génie Informatique @ Université Galatasaray
+[LinkedIn](https://www.linkedin.com/in/mfdx/) • [GitHub](https://github.com/mfd-cs)
 
 ---
 
