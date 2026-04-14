@@ -9,7 +9,7 @@ title: Lettre de Motivation
 
 ---
 
-**Objet : Candidature pour le poste de Stagiaire en Ingénierie – [Spécialité, ex: Backend / Analyse de données]**
+**Objet : Candidature pour le poste de Stagiaire en Ingénierie**
 
 **À l'attention de l'équipe de [Nom du Projet],**
 
